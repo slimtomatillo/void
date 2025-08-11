@@ -1,0 +1,140 @@
+{
+  "solar_system": {
+    "sun": {
+      "id": "sun",
+      "name": "Sun",
+      "type": "star",
+      "position_x": 0,
+      "position_y": 0,
+      "radius": 696340,
+      "mass": 1.989e30,
+      "color": "#FDB813",
+      "description": "Our star, a yellow dwarf star that provides light and energy to the solar system."
+    },
+    "planets": [
+      {
+        "id": "mercury",
+        "name": "Mercury",
+        "type": "planet",
+        "position_x": 0.387,
+        "position_y": 0,
+        "radius": 2439.7,
+        "mass": 3.285e23,
+        "color": "#A0522D",
+        "description": "The smallest and innermost planet in the Solar System."
+      },
+      {
+        "id": "venus",
+        "name": "Venus",
+        "type": "planet",
+        "position_x": 0.723,
+        "position_y": 0,
+        "radius": 6051.8,
+        "mass": 4.867e24,
+        "color": "#E6E6FA",
+        "description": "The second planet from the Sun, often called Earth's sister planet."
+      },
+      {
+        "id": "earth",
+        "name": "Earth",
+        "type": "planet",
+        "position_x": 1.0,
+        "position_y": 0,
+        "radius": 6371,
+        "mass": 5.972e24,
+        "color": "#4B9CD3",
+        "description": "Our home planet, the third planet from the Sun and the only known planet with life."
+      },
+      {
+        "id": "mars",
+        "name": "Mars",
+        "type": "planet",
+        "position_x": 1.524,
+        "position_y": 0,
+        "radius": 3389.5,
+        "mass": 6.39e23,
+        "color": "#CD5C5C",
+        "description": "The fourth planet from the Sun, known as the Red Planet."
+      },
+      {
+        "id": "jupiter",
+        "name": "Jupiter",
+        "type": "planet",
+        "position_x": 5.203,
+        "position_y": 0,
+        "radius": 69911,
+        "mass": 1.898e27,
+        "color": "#FAD5A5",
+        "description": "The largest planet in the Solar System, a gas giant."
+      },
+      {
+        "id": "saturn",
+        "name": "Saturn",
+        "type": "planet",
+        "position_x": 9.537,
+        "position_y": 0,
+        "radius": 58232,
+        "mass": 5.683e26,
+        "color": "#FAD5A5",
+        "description": "The sixth planet from the Sun, famous for its spectacular ring system."
+      },
+      {
+        "id": "uranus",
+        "name": "Uranus",
+        "type": "planet",
+        "position_x": 19.191,
+        "position_y": 0,
+        "radius": 25362,
+        "mass": 8.681e25,
+        "color": "#B8E6B8",
+        "description": "The seventh planet from the Sun, an ice giant with a tilted axis."
+      },
+      {
+        "id": "neptune",
+        "name": "Neptune",
+        "type": "planet",
+        "position_x": 30.069,
+        "position_y": 0,
+        "radius": 24622,
+        "mass": 1.024e26,
+        "color": "#4B70DD",
+        "description": "The eighth and farthest known planet from the Sun, an ice giant."
+      }
+    ]
+  },
+  "nearby_stars": [
+    {
+      "id": "alpha_centauri",
+      "name": "Alpha Centauri",
+      "type": "star_system",
+      "position_x": 4.37,
+      "position_y": 0,
+      "radius": 696340,
+      "mass": 2.2e30,
+      "color": "#FFD700",
+      "description": "The closest star system to our Sun, consisting of three stars."
+    },
+    {
+      "id": "barnard_star",
+      "name": "Barnard's Star",
+      "type": "star",
+      "position_x": 5.96,
+      "position_y": 0,
+      "radius": 136000,
+      "mass": 2.864e29,
+      "color": "#FF4500",
+      "description": "A red dwarf star, one of the nearest stars to the Sun."
+    },
+    {
+      "id": "sirius",
+      "name": "Sirius",
+      "type": "star",
+      "position_x": 8.6,
+      "position_y": 0,
+      "radius": 1190000,
+      "mass": 2.063e30,
+      "color": "#FFFFFF",
+      "description": "The brightest star in Earth's night sky, a binary star system."
+    }
+  ]
+} 

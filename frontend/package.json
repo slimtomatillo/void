@@ -1,0 +1,35 @@
+{
+  "name": "void-3d-solar-system",
+  "version": "1.0.0",
+  "description": "3D interactive solar system visualization built with Three.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step needed for static HTML'"
+  },
+  "keywords": [
+    "3d",
+    "solar-system",
+    "threejs",
+    "space",
+    "astronomy",
+    "visualization",
+    "interactive"
+  ],
+  "author": "Void Team",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.128.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/void.git"
+  }
+} 
